@@ -34,8 +34,8 @@ useEffect(() => {
 
 # React 18.3.1 :
 
-[![react-18]](/public/react-18.mp4)
+[![react-18](/public/thumbnail.png)](/public/react-18.mp4)
 
 # React 19 RC :
 
-[![react-19]](/public/react-19.mp4)
+[![react-19](/public/thumbnail.png)](/public/react-19.mp4)
