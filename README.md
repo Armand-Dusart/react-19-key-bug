@@ -34,8 +34,12 @@ useEffect(() => {
 
 # React 18.3.1 :
 
-[![react-18](/public/thumbnail.png)](/public/react-18.mp4)
+https://github.com/user-attachments/assets/bb21513a-5eda-48bd-b306-81215d0a25f2
+
 
 # React 19 RC :
 
-[![react-19](/public/thumbnail.png)](/public/react-19.mp4)
+https://github.com/user-attachments/assets/8b229790-56e9-4ace-be38-e4d7656ce61d
+
+
+
