@@ -1,38 +1,67 @@
 .App {
-  text-align: center;
+  background-color: oklch(95.7761% 0.005767 264.532118);
+  height: 100dvh;
+  width: 100dvw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
+  width: 1200px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item {
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  gap: 0.75rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  cursor: grab;
+  user-select: none;
+  height: 225px;
+  outline-style: solid;
+  outline-width: 0.25rem;
+  outline-offset: 0.25rem;
+  outline-color: transparent;
+  background-color: var(--color);
+  /* animation: render 0.5s ease; */
 }
 
-.App-link {
-  color: #61dafb;
+.title-container {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: start;
+  gap: 0.5rem;
 }
 
-@keyframes App-logo-spin {
+.title {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25;
+  flex-grow: 1;
+}
+
+.id {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.15);
+}
+
+.description {
+  font-size: 0.875rem;
+  line-height: 1.25;
+}
+
+@keyframes render {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
