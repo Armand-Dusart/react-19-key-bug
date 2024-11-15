@@ -2,7 +2,7 @@
 
 # Explanations :
 
-It seems to have some weird behavior introduced in the React 19 RC update. When we iterate over a list to create components and put a unique id as a key, when sorting certain elements are still searched. Which was not the case in version 18.
+It seems to have some weird behavior introduced in the React 19 RC update. When we iterate over a list to create components and put a unique id as a key, when sorting certain elements are rerendered. Which was not the case in version 18.
 
 # The effect :
 
